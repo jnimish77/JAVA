@@ -25,6 +25,7 @@ package shiftingbits;
 	    }
 	    
 	     public int leftShifts()
+	     
 	    {
 	        int b= value << 3;
 	        System.out.println("After left shifting 3 bits " + Integer.toBinaryString(b));
